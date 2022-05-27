@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ngeng">
+  <splitpane id="4964e">
+    <constraints>
+      <xy x="20" y="20" width="629" height="546"/>
+    </constraints>
+    <properties>
+      <orientation value="0"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <splitpane position="left"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ff2a2" layout-manager="GridLayoutManager" row-count="10" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12045260"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bed38" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="iconJudul.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="fcc0" class="javax.swing.JLabel" binding="tfNama">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <icon value="blank.png"/>
+                  <text value="Nama Costumer"/>
+                </properties>
+              </component>
+              <component id="965a4" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="9cb0a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <icon value="iconAsal.png"/>
+                  <text value="Kota Asal"/>
+                </properties>
+              </component>
+              <component id="eafe3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <icon value="iconTujuan.png"/>
+                  <text value="Kota Tujuan"/>
+                </properties>
+              </component>
+              <component id="23de4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <icon value="iconKendaraan.png"/>
+                  <text value="Kendaraan"/>
+                </properties>
+              </component>
+              <component id="a1961" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <icon value="iconPromo.png"/>
+                  <text value="Kode Promo"/>
+                </properties>
+              </component>
+              <component id="66694" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <icon value="iconBook.png"/>
+                  <text value="Jam Booking"/>
+                </properties>
+              </component>
+              <component id="abb8b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <icon value="iconHarga.png"/>
+                  <text value="Harga"/>
+                </properties>
+              </component>
+              <component id="1a3b6" class="javax.swing.JTextField" binding="tfKodePromo">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="abce2" class="javax.swing.JTextField" binding="tfJam">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <focusable value="true"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="c029f" class="javax.swing.JTextField" binding="tfHarga">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="964cc" class="javax.swing.JButton" binding="btnBook">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <icon value="button2.png"/>
+                  <opaque value="false"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="bc8df" class="javax.swing.JButton" binding="btnCekHarga">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1124668"/>
+                  <foreground color="-12045260"/>
+                  <text value="CEK HARGA"/>
+                </properties>
+              </component>
+              <component id="17ea5" class="javax.swing.JRadioButton" binding="motorRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-856396"/>
+                  <text value="Motor"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="8269b" class="javax.swing.JRadioButton" binding="mobilRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-856396"/>
+                  <text value="Mobil"/>
+                </properties>
+              </component>
+              <hspacer id="b7736">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="a89c8" class="javax.swing.JRadioButton" binding="kotaMalangRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-856396"/>
+                  <text value="Kota Malang"/>
+                </properties>
+              </component>
+              <component id="ed960" class="javax.swing.JRadioButton" binding="kotaBatuRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-856396"/>
+                  <text value="Kota Batu"/>
+                </properties>
+              </component>
+              <component id="94488" class="javax.swing.JRadioButton" binding="bromoRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-856396"/>
+                  <borderPainted value="false"/>
+                  <text value="Bromo"/>
+                </properties>
+              </component>
+              <component id="85178" class="javax.swing.JRadioButton" binding="kotaMalangRadioButton1" default-binding="true">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-856396"/>
+                  <text value="Kota Malang"/>
+                </properties>
+              </component>
+              <component id="bb7f1" class="javax.swing.JRadioButton" binding="kotaBatuRadioButton1" default-binding="true">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-856396"/>
+                  <text value="KotaBatu"/>
+                </properties>
+              </component>
+              <component id="e88b9" class="javax.swing.JRadioButton" binding="bromoRadioButton1" default-binding="true">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-856396"/>
+                  <text value="Bromo"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="d6867" class="javax.swing.JTable" binding="tbPesanan">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <vspacer id="e8af9">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </splitpane>
+  <buttonGroups>
+    <group name="btnGroupKendaraan">
+      <member id="8269b"/>
+      <member id="8269b"/>
+      <member id="17ea5"/>
+    </group>
+    <group name="btnGroupKota">
+      <member id="94488"/>
+      <member id="94488"/>
+      <member id="a89c8"/>
+      <member id="ed960"/>
+    </group>
+    <group name="btnGroupKotaTujuan">
+      <member id="bb7f1"/>
+      <member id="bb7f1"/>
+      <member id="e88b9"/>
+      <member id="85178"/>
+    </group>
+  </buttonGroups>
+</form>
