@@ -1,6 +1,8 @@
 # Program-Sederhana-Pemesanan-Java
-Preview
+
 Proyek sederhana dalam materi pemrograman beroriantasi object (OOP)
+
+Preview :
 
 
 ![image](https://user-images.githubusercontent.com/58659139/170729167-484e9c64-7eee-45e0-b8b0-2519d6c4ed29.png)
